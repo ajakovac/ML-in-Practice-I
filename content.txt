@@ -1,0 +1,11 @@
+Introduction to Machine Learning
+Data Preprocessing & Feature Engineering
+Tree-Based Methods
+Ensemble Methods (Bagging, Random Forests, Boosting)
+Instance-Based Learning — k-Nearest Neighbors
+Probabilistic Models — Naive Bayes & Gaussian Mixtures
+Linear Models for Regression
+Linear Models for Classification
+Support Vector Machines (SVMs)
+Dimensionality Reduction
+Examples from audio and computer vision
