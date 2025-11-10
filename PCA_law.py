@@ -9,7 +9,7 @@ def _require_same(x: torch.Tensor, ref: torch.Tensor, name="X"):
         )
 
 class PCA_law(nn.Module):
-    def __init__(self, n_components, center=False, dtype=torch.float64):
+    def __init__(self, n_components, center=False, dtype=torch.float32):
         super().__init__()
         self.n_components = int(n_components)
         self.center = center
@@ -68,7 +68,7 @@ class PCA_law(nn.Module):
 
 
 class PCA_classifier(nn.Module):
-    def __init__(self, n_components, center=False, dtype=torch.float64):
+    def __init__(self, n_components, center=False, dtype=torch.float32):
         super().__init__()
         self.n_components = int(n_components)
         self.center = center
